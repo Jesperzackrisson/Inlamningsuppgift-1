@@ -1,0 +1,747 @@
+
+/* HTML, BODY * */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto; 
+}
+
+.box {
+    flex: 1;
+}
+
+/*  FONTS
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+/* FLEX */
+
+.services .justify-content-1 {
+    justify-content: flex-start;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: right;
+}
+
+.services .justify-content {
+    justify-content: space-between;
+}
+
+.appointment .justify-content {
+    justify-content: space-between;
+}
+
+.show-case .justify-content {
+    justify-content: space-between;
+}
+
+.about-us .justify-content {
+    justify-content: space-around;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.flex-direction-1{
+    flex-direction: row-reverse;
+}
+
+/* TOP-MENU */
+
+.border-bottom {
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    height: 60px; 
+    margin-bottom: 2rem;
+}
+
+.fa-clock {
+    color: #2BAAEC;
+    margin-bottom: 1.3rem;
+}
+
+.far {
+    font-size: 16px;
+    margin-top: 1.3rem;
+    
+}
+
+.fab {
+    color: #2BAAEC;
+    float: right;
+    padding-left: 1.5rem;
+    margin-top: 1.3rem;  
+}
+
+.fab:hover {
+    color: #25E6C8;
+}
+
+/* MAIN_MENU */
+
+.bild-loga {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    display: flex;
+    margin-left: 15rem;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 1vh 1vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* SHOW-CASE */
+
+.bild1 {
+    margin-top: 1rem;
+    height: 500px;
+}   
+
+.show-case {
+    background: #DEDEDE;
+}
+
+.show-case h1 {
+    font-size: 2.8rem;
+    color: #363636;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+.show-case p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #626262;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show-case button {
+    background: #25E6C8;
+    width: 239px;
+    height: 60px;
+    border-radius: 0.5rem;
+    border: 1px solid #25E6C8;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show-case button:hover {
+    background: #2BAAEC;
+    border: none;
+}
+
+/* ABOUT-US */
+
+.bild2 {
+    margin-top: 5.5rem; 
+    height: 500px;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    color: #363636;
+    max-width: 500px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hr-line {
+    border: 2px solid #25E6C8; 
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #626262;
+    margin-top: 54px;
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us h3 {
+    font-size: 40px;
+    color: #2BAAEC;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-us h4 {
+    font-size: 18px;
+    color: #626262;
+    max-width: 700px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-us h2 h3 h4 p {
+    margin-left: 5rem;
+}
+
+/* SERVICES */
+
+
+
+.services {
+    background: #F7F7F7;
+    height: 1349px;
+    padding-top: 7rem;
+}
+
+.services h1 {
+    font-size: 40px;
+    color: #363636;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hr-line_services {
+    border: 2px solid #25E6C8;
+    margin: auto;
+}
+
+.icon {
+    
+    margin: auto;
+    
+}
+
+
+.icon-background {
+    border-radius: 50%;
+    background: #25E6C8;
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 120px;
+    display: flex;
+    
+}
+
+.icon-background:hover {
+    background: #2BAAEC;
+    
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 450px;
+    height: 436px;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.border h2 {
+    font-size: 22px;
+    color: #363636;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.border p {
+    font-size: 18px;
+    color: #626262;
+    max-width: 290px;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;
+    font-family: 'Roboto', serif;
+}
+
+
+
+/* APPOINTMENT */
+
+.appointment {
+    height: 220px;
+    background-color: #2BAAEC;
+    padding-top: 5rem;
+    opacity: 80%;
+}
+
+a.appo-button:hover{
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+}
+
+.appointment h1 {
+    color: #FFFFFF;
+    font-size: 1.5rem; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.appo-button {
+    background: #FFFFFF;
+    width: 286px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    color: #2BAAEC;
+    padding: 18px 50px;
+    font-family: 'Roboto', serif;
+}
+
+.appointment a {
+    color: #2BAAEC;
+    margin-left: 17.5rem;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 81px;
+    font-size: 16px;
+    background: #2BAAEC;
+    color: #F3FBFF;
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Roboto', serif;
+}
+
+.footer p {
+    opacity: 60%;
+}
+
+/* MOBILE FIRST VERSION */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    
+    
+{
+    /* HTML, BODY * */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto; 
+}
+
+.box {
+    flex: 1;
+}
+
+/*  FONTS
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
+
+/* FLEX */
+
+
+.services .align-items {
+    align-items: flex-start;
+}
+
+
+
+.show-case .justify-content {
+    justify-content: space-between;
+}
+
+.about-us .justify-content {
+    justify-content: space-around;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.main_menu .flex-direction {
+    flex-direction: column;
+}
+
+.flex-direction-1{
+    flex-direction: row-reverse;
+}
+
+.flex-direction-services {
+    flex-direction: column;
+}
+
+.flex-direction-appo {
+    flex-direction: column;
+}
+
+/* TOP-MENU */
+
+.border-bottom {
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    height: 60px; 
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.fa-clock {
+    color: #2BAAEC;
+    margin-bottom: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.far {
+    font-size: 0.5rem;
+    margin-top: 1.7rem;
+    
+}
+
+.fab {
+    color: #2BAAEC;
+    float: right;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.fab:hover {
+    color: #25E6C8;
+}
+
+/* MAIN_MENU */
+
+.bild-loga {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    font-size: 8px;
+    margin: 1vh 2vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* SHOW-CASE */
+
+.bild1 {
+    margin-top: 1rem;
+    height: 500px;
+    display: none;
+}   
+
+.show-case {
+    background: #DEDEDE;
+}
+
+.show-case h1 {
+    font-size: 1.5rem;
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    
+
+}
+
+.show-case p {
+    font-size: 0.9rem;
+    
+    color: #626262;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 18rem;
+    width: 100%;
+}
+
+.show-case button {
+    background: #25E6C8;
+    width: 239px;
+    height: 60px;
+    border-radius: 0.5rem;
+    border: 1px solid #25E6C8;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.show-case button:hover {
+    background: #2BAAEC;
+    border: none;
+}
+
+/* ABOUT-US */
+
+.bild2 {
+    margin-top: 5.5rem; 
+    height: 500px;
+    display: none;
+}
+
+.about-us h2 {
+    font-size: 1.5rem;
+    color: #363636;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.hr-line {
+    border: 2px solid #25E6C8;
+    width: 375px; 
+}
+
+.about-us p {
+    font-size: 12px;
+    color: #626262;
+    margin-top: 54px;
+    max-width: 700px;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us h3 {
+    font-size: 20px;
+    color: #2BAAEC;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 2rem;
+}
+
+.about-us h4 {
+    font-size: 9px;
+    color: #626262;
+    max-width: 700px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* SERVICES */
+
+
+
+.services {
+    background: #F7F7F7;
+    height: 2700px;
+    padding-top: 1rem;
+}
+
+.services h1 {
+    font-size: 40px;
+    color: #363636;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hr-line_services {
+    border: 2px solid #25E6C8;
+    margin: auto;
+    width: 100%;
+}
+
+.icon {
+    
+    margin-top: 1.3rem;
+}
+
+
+.icon-background {
+    border-radius: 50%;
+    background: #25E6C8;
+    width: 120px;
+    height: 120px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3rem;
+    text-align: center;
+    line-height: 120px;
+    
+}
+
+.icon-background:hover {
+    background: #2BAAEC;
+    
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 340px;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.border h2 {
+    font-size: 22px;
+    color: #363636;
+    margin-top: 3rem;
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.border p {
+    font-size: 18px;
+    color: #626262;
+    max-width: 290px;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;
+    font-family: 'Roboto', serif;
+    margin-bottom: 2rem;
+}
+
+
+
+/* APPOINTMENT */
+
+.appointment {
+    height: 220px;
+    width: 375px;
+    background-color: #2BAAEC;
+    opacity: 80%;
+    padding-top: 3rem;
+}
+
+a.appo-button:hover{
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+}
+
+.appointment h1 {
+    color: #FFFFFF;
+    font-size: 1.5rem; 
+    font-family: 'Roboto Slab', serif;
+    margin-left: 4rem;
+    margin-bottom: 2.5rem;
+    
+}
+
+.appo-button {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    color: #2BAAEC;
+    padding: 18px 20px; 
+    font-family: 'Roboto', serif;
+    
+    
+}
+
+.appointment a {
+    color: #2BAAEC;
+    margin-left: 5.6rem; 
+    margin-bottom: 50rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    height: 81px;
+    font-size: 16px;
+    background: #2BAAEC;
+    color: #F3FBFF;
+    padding-top: 2rem;
+    text-align: center;
+    font-family: 'Roboto', serif;
+}
+
+.footer p {
+    opacity: 60%;
+}
+    
+}
+        
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
